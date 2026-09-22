@@ -9,6 +9,7 @@ import CampoSenhaReRender from "@/components/CampoSenhaReRender";
 import CampoSenhaUseEffect from "@/components/CampoSenhaUseEffect";
 import RadioButtonGenero from "@/components/RadioButtonGenero";
 import SelectFrutas from "@/components/SelectFrutas";
+import TabContent from "@/components/TabContent";
 
 import { useState } from "react";
 
@@ -67,6 +68,11 @@ export default function Home() {
 
       <span>9 - Select Frutas</span>
       <SelectFrutas></SelectFrutas>
+      
+      <br />
+
+      <span>10 - Tab Content</span>
+      <TabContent></TabContent>
     </div>
   );
 }
